@@ -7,21 +7,102 @@
 
 <body>
     <div>
-        <form id="tucv" action="formulario.html" method="POST">
+        <form>
             <input class="formgrislargo" id="cv" type="text" name="curriculum" value="" placeholder="TU CV" readonly disabled>
-        </form>
+            <div>
+                <input class="formgriscorto" id="nombre" type="text" name="curriculum" value="" placeholder="Tu Nombre" >
+                <img src="/Clase 29-10-21/assets/images/usuarioejerciciocss.png" alt="imagen ejemplo usuario" width="500px" height="433.5"> 
+                <br>         
+                <textarea form="tucv" id="datoscontacto" class="datoscontacto" type="text" placeholder="Datos de contacto"></textarea>
+            </div>
 
-        <form id="nombre" action="formulario.html" method="POST">
-            <input class="formgriscorto" id="nombre" type="text" name="curriculum" value="" placeholder="Tu Nombre" >
+            <fieldset class="espaciogris">
+                <label>Contacto</label> 
+                <br>
+                <input class= "inputsespacio" id="nombrec" type="text" name="nombrecontacto" value="" placeholder="Nombre">
+                <input class= "inputsespacio" id="emailc" type="text" name="emailcontacto" value="" placeholder="Email">
+                <br>
+                <input class= "inputsespacio" id="comentarioc" type="text" name="comentariocontacto" value="" placeholder="Comentario">
+                <br>
+                <input class= "inputsespacio" id="btn" type="submit" name="boton">    
+            </fieldset>
+            <div class="banner">
+            </div>
         </form>
-
-        <textarea id="datoscontacto" class="datoscontacto" placeholder="Datos de contacto"></textarea>
     </div>
 </body>
 
 
 
 <style>
+
+* {
+    font-family: sans-serif;
+    font-size: 22px;
+    font-style: normal;
+}
+
+.banner{
+    background-color: rgb(128, 246, 128);
+    width: 200px;
+    height: 700px;
+    float:right;
+    position: relative;
+    border: black;
+    border-width: 2px;
+    border-style: double;
+    margin-right: 10%;
+}
+
+img{
+    float: right;
+    position:absolute;
+    margin-left: 25px
+    ;
+}
+
+.inputsespacio[name="comentariocontacto"]{
+  width: 80%;
+}
+
+.inputsespacio[name="emailcontacto"]{
+  width: 40%;
+}
+
+.inputsespacio[name="nombrecontacto"]{
+  width: 30%;
+}
+
+.inputsespacio[name="boton"]{
+  width: 10%;
+}
+
+.inputsespacio {
+    background-color: rgb(209, 209, 209);
+    font-style: oblique;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 60px;
+}
+
+
+.espaciogris {
+    background-color: rgb(209, 209, 209);
+    font-size: 22px;
+    width: 872px;
+    height: 350px;
+    font-weight: bolder;
+    font-style: italic;
+    margin-left: 25%;
+    margin-bottom: 1%;
+    border:2px;
+    border-color:rgb(0, 0, 0);
+    border-style:solid;
+}
+
 
 .formgrislargo {
     background-color: rgb(209, 209, 209);
@@ -41,9 +122,9 @@
     background-color: rgb(209, 209, 209);
     font-size: 22px;
     margin-left: 25%;
-    margin-bottom: 2%;
-    width: 325px;
-    height: 60px;
+    margin-bottom: 1%;
+    width: 375px;
+    height: 50px;
     border:2px;
     border-color:rgb(0, 0, 0);
     border-style:solid;
@@ -52,16 +133,17 @@
 }
 
 .datoscontacto {
+    background-color: #ffe5c4;
     margin-left: 25%;
-    background-color: rgb(255, 222, 179);
-    width: 325px;
+    width: 375px;
     height: 350px;
     font-family: sans-serif;
     font-size: 20px;
     font-weight: bolder;
     border:2px;
     border-color:rgb(0, 0, 0);
-    border-style:solid; 
+    border-style:solid;
+    margin-bottom: 1%;
 }
 
 
