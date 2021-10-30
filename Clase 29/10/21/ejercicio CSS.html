@@ -7,7 +7,15 @@
 
 <body>
     <div>
-        <p>MI CV</p>
+        <form id="tucv" action="formulario.html" method="POST">
+            <input class="formgrislargo" id="cv" type="text" name="curriculum" value="" placeholder="TU CV" readonly disabled>
+        </form>
+
+        <form id="nombre" action="formulario.html" method="POST">
+            <input class="formgriscorto" id="nombre" type="text" name="curriculum" value="" placeholder="Tu Nombre" >
+        </form>
+
+        <textarea id="datoscontacto" class="datoscontacto" placeholder="Datos de contacto"></textarea>
     </div>
 </body>
 
@@ -15,28 +23,48 @@
 
 <style>
 
-* {
-    background-color: rgb(255, 255, 255);
-}
-
-div {
-    padding: 5px;
-    width: 50%;
-    background-color: rgb(173, 173, 173);
+.formgrislargo {
+    background-color: rgb(209, 209, 209);
+    font-size: 22px;
+    width: 900px;
+    height: 60px;
+    font-weight: bolder;
+    font-style: italic;
     margin-left: 25%;
+    margin-bottom: 1%;
     border:2px;
     border-color:rgb(0, 0, 0);
     border-style:solid;
 }
 
-p {
+.formgriscorto {
+    background-color: rgb(209, 209, 209);
+    font-size: 22px;
+    margin-left: 25%;
+    margin-bottom: 2%;
+    width: 325px;
+    height: 60px;
+    border:2px;
+    border-color:rgb(0, 0, 0);
+    border-style:solid;
+    font-weight: bolder;
     font-style: italic;
+}
+
+.datoscontacto {
+    margin-left: 25%;
+    background-color: rgb(255, 222, 179);
+    width: 325px;
+    height: 350px;
     font-family: sans-serif;
     font-size: 20px;
-    width: fit-content;
-    color: rgb(0, 0, 0);
-    background-color: rgb(173, 173, 173);
+    font-weight: bolder;
+    border:2px;
+    border-color:rgb(0, 0, 0);
+    border-style:solid; 
 }
+
+
 
 
 
