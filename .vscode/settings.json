@@ -12,7 +12,7 @@
         {
             "extensionName": ".min.css",
             "format": "compressed",
-            "savePath": "/css/"
+            "savePath": "/clases/assets/boostrap assets/dist/css"
         }
     ],
     "liveSassCompile.settings.autoprefix": [
