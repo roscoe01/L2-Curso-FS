@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 5 Nov 2021</title>
+</head>
+<body>    
+    <script>
+        // Ejercicio 1:
+        // var edad = prompt('Ingrese su edad');
+        // if(edad>=18) {
+        //     document.write("<h1>Estas habilitado a conducir</h1>")
+        // }
+        // else {
+        //     document.write("<h1>Cumplí 18 y después hablamos</h1>");
+        // }
+
+        // Ejercicio 2:
+        // var nota = prompt('Ingrese la nota del alumno');
+        // switch (true) {
+        //     case (0<=nota)&&(nota<3):
+        //         document.write("<h1>Tu nota es Muy Deficiente</h1>");
+        //         break;
+        //     case (3<=nota)&&(nota<5):
+        //         document.write("<h1>Tu nota es Insuficiente </h1>");
+        //         break;
+        //     case (5<=nota)&&(nota<6):
+        //         document.write("<h1>Tu nota es Suficiente</h1>");
+        //         break;
+        //     case (6<=nota)&&(nota<7):
+        //         document.write("<h1>Tu nota está Bien</h1>");
+        //         break;
+        //     case (7<=nota)&&(nota<9):
+        //         document.write("<h1>Tu nota es Notable</h1>");
+        //         break;
+        //     case (9<=nota)&&(nota<=10):
+        //         document.write("<h1>Tu nota es Sobresaliente</h1>");
+        //         break;
+        //     default:
+        //         document.write("<h1>No ingresaste un valor valido para la nota </h1>");
+        //         break;
+        // }
+
+        // Ejercicio 3
+        var seguir = true;
+        var total = 0;
+        while (seguir) {
+            let numIng = prompt("Ingresa un numero");
+            if (isNaN(numIng)) {
+                alert("No ingresaste un numero");
+                seguir = false; 
+                alert(total);              
+            }
+            else{
+                total = total + parseInt(numIng);
+                seguir = true;
+            }           
+        }
+    </script>
+</body>
+</html>
