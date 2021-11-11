@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+</head>
+<body>
+    <div class="padre">
+        <div class="hijo">hijo1</div>
+        <div class="hijo">hijo2</div>
+        <div class="hijo">hijo3</div>
+        <!-- <div class="hijo">hijo4</div>
+        <div class="hijo">hijo5</div>
+        <div class="hijo">hijo6</div>
+        <div class="hijo">hijo7</div> -->
+    </div>
+</body>
+
+<style>
+    *{
+        margin:0;
+        padding: 0;
+    }
+
+    .padre {
+        background-color: gray;
+        height: 200px;
+    }
+
+    .hijo {
+        border: 3px solid greenyellow;
+        width: 100px;
+        height: 100px;
+        color: ivory;
+    }
+
+
+    .hijo:nth-child(2){
+        width: 200px;
+        border-color: green;
+        order: 1;
+    }
+
+    .hijo:nth-child(3){
+        width: 300px;
+        border-color: blue;
+        order: 2;
+    }
+
+
+    /* flex-direction: row row-reverse column column-reverse*/ 
+    /*.padre {
+        display: flex;
+        flex-direction: column;     
+    }*/
+
+
+
+    /* flex-wrap*/
+    /* .padre  {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    */
+
+
+    /* justify-content
+    .padre  {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
+    */
+
+
+    /*align-items*/
+    .padre  {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: baseline;
+        justify-content: center;
+        
+    }
+
+
+
+
+   /* Extra: MediaQuery Dispositivos Moviles */
+   /* @media screen and (min-width: 600px) {
+        .padre {
+        flex-direction: row;       
+    }     
+    } */
+
+</style>
+
+</html>
