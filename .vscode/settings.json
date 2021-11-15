@@ -42,4 +42,5 @@
     ],
     "html.format.indentInnerHtml": true,
     "liveServer.settings.port": 5501,
+    "editor.fontFamily": "Fira Code",
 }
