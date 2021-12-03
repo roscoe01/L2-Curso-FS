@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../../../../Clase 15-11-21/angularContact/src/app/app.component.scss"
+    ],
+    "names": [],
+    "file": "app.component.min.css"
+}
