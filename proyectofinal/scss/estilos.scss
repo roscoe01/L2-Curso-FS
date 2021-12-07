@@ -1,69 +1,64 @@
 
-$color-primario: #ffc107;
-/* menu - header*/
-header{
-	text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Oswald:wght@200;400&display=swap');
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	background-color: #24252A;
 }
 
-ul {
-	list-style: none;
-}
-li {
-	display: inline-block;
-	width: 25%;
-	position:relative;
-	font-size: 15px;
-	color: black;
-}
-
-ul li a:hover {
-	background-color: red;
-	color: white;
-	padding: 4px;
-}
-
-a {
+li, a, button{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 30px;
+	color: #edf0f1;
 	text-decoration: none;
-	padding: 4px;
-	text-transform: uppercase;
 }
 
-body {
+header {
 	display: flex;
-	height: 600px;
-	flex-direction: column;
-	padding: 1em;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 30px 10%;	
 }
 
-#main{
-	display: flex;
-	flex: 1;
-	margin-top: 20px;
+.logo {
+	height: 125px;
+	width: 125px;
+	cursor: pointer;
+	margin-right: auto;
 }
 
-article, aside{
-	background-color: pink;
+.nav_boton{
+	list-style: none;
+	margin-right: 40px;
 }
 
-footer{
-	background-color: grey;
-	margin:1px;
+.nav_boton li{
+	display: inline-block;
+	padding: 0px 20px;
 }
 
-article, aside, footer{
-	flex:1;
-	padding: 1rem;
-	margin:1px;
+.nav_boton li a{
+	transition: all 0.3s ease 0s;
+	font-size: 30px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
+.nav_boton li a:hover{
+	color: #0088a9;
+}
 
-$fuenteOswald: Oswald, sans-serif;
-
-.botonNav {
-    font-family: $fuenteOswald;
-
+button{
+	padding: 9px 25px;
+	background-color: rgb(255, 191, 42);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
 }
 
 
-
+button:hover {
+	background-color: rgba(0,136,169,0.8);
+}
