@@ -2,7 +2,7 @@
 
 ```python
 
-- Hola :), este repositorio es para mi proyecto final del curso Full-Stack de La Segunda.
+- Hola :), este repositorio es para mi proyecto final de el curso Full-Stack de La Segunda.
 
 ```
 ## Recursos 
