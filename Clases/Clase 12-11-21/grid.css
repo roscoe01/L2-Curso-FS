@@ -1,6 +1,0 @@
-.contenedor {
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 150px 300px;
-    grid-gap: 20px;
-}
