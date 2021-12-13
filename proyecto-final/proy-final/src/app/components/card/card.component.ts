@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-card',
@@ -6,6 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./card.component.scss']
 })
 export class CardComponent implements OnInit {
+
+  @Input() obra:any = {};
+
+  @Input('index') i: number = 0;
+
+  @Output() clickCard = new EventEmitter();
 
   constructor() { }
 
@@ -15,5 +21,6 @@ export class CardComponent implements OnInit {
   navigate() {
     console.log('click');
   }
+
 
 }

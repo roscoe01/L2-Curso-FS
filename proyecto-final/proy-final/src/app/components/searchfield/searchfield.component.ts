@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ObrasService } from 'src/app/services/obras.service';
 
 @Component({
   selector: 'app-searchfield',
@@ -6,10 +7,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./searchfield.component.scss']
 })
 export class SearchfieldComponent implements OnInit {
+  search: string = '';
 
-  constructor() { }
+  constructor(private obrasSv: ObrasService) { }
 
   ngOnInit(): void {
   }
 
+  filter($event:any){
+    $event.preventDefault();
+    this.obrasSv.filterObras(this.search.trim());
+    this.search = '';
+
+  }
 }

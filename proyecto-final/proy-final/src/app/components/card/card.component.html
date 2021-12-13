@@ -1,8 +1,8 @@
 <div class="card" style="width: auto">
     <img src="https://via.placeholder.com/100" class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <button routerLink="/details" (click)="navigate()" class="btn btn-primary">Go somewhere</button>
+      <h5 class="card-title">{{ obra.nombre | uppercase}}</h5>
+      <p class="card-text">{{ obra.bio }}</p>
+      <button [routerLink]="['/details',i]" (click)="navigate()" class="btn btn-primary">Ver detalles</button>
     </div>
   </div>

@@ -8,6 +8,8 @@ import { CardComponent } from './components/card/card.component';
 import { DetailsComponent } from './components/details/details.component';
 import { SearchfieldComponent } from './components/searchfield/searchfield.component';
 import { CardsComponent } from './components/cards/cards.component';
+import { FormsModule } from '@angular/forms';
+import { CardsfilteredComponent } from './components/cardsfiltered/cardsfiltered.component';
 
 @NgModule({
   declarations: [
@@ -16,12 +18,14 @@ import { CardsComponent } from './components/cards/cards.component';
     CardComponent,
     DetailsComponent,
     SearchfieldComponent,
-    CardsComponent
+    CardsComponent,
+    CardsfilteredComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
-  ],
+    AppRoutingModule,
+    FormsModule
+],
   providers: [],
   bootstrap: [AppComponent]
 })
