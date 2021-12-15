@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+
+$color : #0088a9;
+
+
+*   {
+    font-family: 'Sen', sans-serif;
+}
+
+form{
+    padding: 8px 20px;
+}
+
+button {
+    background-color: rgb(253, 193, 29);
+    padding: 8px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: rgba(253, 193, 40, 0.8);
+}

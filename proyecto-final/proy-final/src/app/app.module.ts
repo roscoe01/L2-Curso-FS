@@ -10,6 +10,7 @@ import { SearchfieldComponent } from './components/searchfield/searchfield.compo
 import { CardsComponent } from './components/cards/cards.component';
 import { FormsModule } from '@angular/forms';
 import { CardsfilteredComponent } from './components/cardsfiltered/cardsfiltered.component';
+import { ContactoComponent } from './components/contacto/contacto.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { CardsfilteredComponent } from './components/cardsfiltered/cardsfiltered
     DetailsComponent,
     SearchfieldComponent,
     CardsComponent,
-    CardsfilteredComponent
+    CardsfilteredComponent,
+    ContactoComponent
   ],
   imports: [
     BrowserModule,

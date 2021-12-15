@@ -15,7 +15,7 @@ export class CardsfilteredComponent implements OnInit {
   }
 
   ngOnInit(): void {
-  setTimeout(() => {this.obras = this.obrasSvs.filtered},250);
+  setTimeout(() => {this.obras = this.obrasSvs.filtered},100);
   }
 
 }

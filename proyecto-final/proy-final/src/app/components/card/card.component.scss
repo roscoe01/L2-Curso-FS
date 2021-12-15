@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+
+
+*   {
+    font-family: 'Sen', sans-serif;
+    font-weight: normal;
+}
+
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s;
+    display:flex;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.card-title {
+    font-weight: bolder;
+}
+
+.card-text{
+    display: block;
+    height: 100px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.5);
+}
+
+button {
+    background-color: rgb(253, 193, 29);
+    padding: 8px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: rgba(253, 193, 29, 0.7);
+}
+
+.card-img-top{
+    border: none;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.align-end{
+    align-self: flex-end;
+}

@@ -3,6 +3,7 @@ import { Routes } from '@angular/router';
 import { RouterModule } from '@angular/router';
 import { CardsComponent } from './components/cards/cards.component';
 import { CardsfilteredComponent } from './components/cardsfiltered/cardsfiltered.component';
+import { ContactoComponent } from './components/contacto/contacto.component';
 import { DetailsComponent } from './components/details/details.component';
 
 const routes: Routes = [
@@ -11,7 +12,7 @@ const routes: Routes = [
     component: DetailsComponent
   },
   {
-    path: 'home',
+    path: 'obras',
     component: CardsComponent
   },
   {
@@ -22,6 +23,16 @@ const routes: Routes = [
     path: '',
     redirectTo: 'home',
     pathMatch: 'full' 
+  },
+  {
+    path: 'home',
+    redirectTo: '',
+    pathMatch: 'full'
+  }
+  ,
+  {
+    path: 'contacto',
+    component: ContactoComponent
   }
 ];
 
