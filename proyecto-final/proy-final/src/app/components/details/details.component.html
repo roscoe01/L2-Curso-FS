@@ -1,19 +1,21 @@
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-8">
-            <article class="movies-container py-5">
-                <section class="movies-item">
-                    <div class="card" style="width: auto">
-                        <img src="https://via.placeholder.com/100" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title"></h5>
-                          <p class="card-text"></p>
-                          <button [routerLink]="['/obras']" class="btn btn-primary">Volver</button>
-                        </div>
-                      </div>
-                </section>
-            </article>
-        </div>
+<div class="card mb-3">
+    <div class="row g-2">
+      <div class="card-image col-md-4">
+        <img src="https://via.placeholder.com/100" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class=" contenido col-md-8">
+        <div class="card-body">
+            <h5 class="card-title">{{ obra.nombre | uppercase}}</h5>
+            <hr>
+            <p class="desc">{{ obra.descripcion }}</p>
+            <p class="card-text">Tamaño: {{obra.tamanio}}</p>
+            <p class="card-text">Año: {{obra.anio}}</p>
+            <p class="card-text">Colección: {{obra.coleccion}}</p>
+            <div class="container">
+              <button [routerLink]="['/contacto']" class="btn boton-consulta">Consultar</button>
+              <button [routerLink]="['/obras']" class="btn ">Volver</button>
+            </div>
+          </div>
+      </div>
     </div>
-</div>
-
+  </div>

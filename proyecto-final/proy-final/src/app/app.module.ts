@@ -11,6 +11,9 @@ import { CardsComponent } from './components/cards/cards.component';
 import { FormsModule } from '@angular/forms';
 import { CardsfilteredComponent } from './components/cardsfiltered/cardsfiltered.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HomeComponent } from './components/home/home.component';
+
 
 @NgModule({
   declarations: [
@@ -21,12 +24,14 @@ import { ContactoComponent } from './components/contacto/contacto.component';
     SearchfieldComponent,
     CardsComponent,
     CardsfilteredComponent,
-    ContactoComponent
+    ContactoComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule
 ],
   providers: [],
   bootstrap: [AppComponent]

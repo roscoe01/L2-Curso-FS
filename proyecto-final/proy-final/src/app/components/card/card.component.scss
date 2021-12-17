@@ -20,6 +20,12 @@
     flex-direction: column;
 }
 
+img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+
+}
 
 .card-title {
     font-weight: bolder;

@@ -3,7 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
 
 body{
-    background-color: #fff9d4
+    background-color: #fff9d4;
+    margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 
 h1{
@@ -14,3 +16,5 @@ h1{
     padding-top: 20px;
 
 }
+html, body { height: 100%; }
+

@@ -3,12 +3,18 @@
 
 nav{
     background-color: #24252A;
+    width: 100%;
+    z-index: 12;
+    position: fixed;
 }
 
-.navbar-brand{
+
+.logo{
     font-size: 36px;
     font-family: 'Parisienne', cursive;
     padding-right: 10px;
+    margin-right: 2rem;
+    margin-left: 0.5rem;
 }
 
 
@@ -25,13 +31,13 @@ li, a, button{
 }
 
 .navbar-nav li{
-    display: inline-block;   
+    display: inline-block; 
 }
 
 .navbar-nav li a{
-    transition: all 0.3s ease 0s;  
+    transition: all 0.3s ease 0s;
 }
 
 .navbar-nav li a:hover{
-    color: #0088a9; 
+    color: rgb(253, 193, 29)
 }

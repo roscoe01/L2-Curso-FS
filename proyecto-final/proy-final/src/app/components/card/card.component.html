@@ -1,8 +1,8 @@
 <div class="card text-end text-white bg-dark mb-3" style="width: auto">
-    <img src="https://via.placeholder.com/100" class="card-img-top" alt="...">
+    <img src="http://localhost:3000/img/1.jpg" class="card-img-top" alt="...">
     <div class="card-body position-relative">
       <h5 class="card-title">{{ obra.nombre | uppercase}}</h5>
-      <p class="card-text text-wrap text-truncate">{{ obra.bio }}</p>
+      <p class="card-text text-wrap text-truncate">{{ obra.descripcion }}</p>
       <button [routerLink]="['/details',i]" (click)="navigate()" class="btn ">Ver detalles</button>    
     </div>
-  </div>
+</div>

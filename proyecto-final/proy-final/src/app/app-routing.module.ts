@@ -5,6 +5,7 @@ import { CardsComponent } from './components/cards/cards.component';
 import { CardsfilteredComponent } from './components/cardsfiltered/cardsfiltered.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
 import { DetailsComponent } from './components/details/details.component';
+import { HomeComponent } from './components/home/home.component';
 
 const routes: Routes = [
   {
@@ -21,13 +22,11 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'home',
-    pathMatch: 'full' 
+    component: HomeComponent
   },
   {
     path: 'home',
-    redirectTo: '',
-    pathMatch: 'full'
+    component: HomeComponent
   }
   ,
   {
