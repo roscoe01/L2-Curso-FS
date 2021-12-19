@@ -1,9 +1,0 @@
-<div class="card text-white bg-white mb-3" style="width: auto">
-    <img src="http://localhost:3000/img/1.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">{{ obra.nombre | uppercase}}</h5>
-      <hr>
-      <p class="card-text text-wrap">{{ obra.descripcion }}</p>
-      <button [routerLink]="['/details',i]" (click)="navigate()" class="btn ">Ver detalles</button>    
-    </div>
-</div>
