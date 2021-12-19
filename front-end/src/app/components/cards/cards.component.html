@@ -1,0 +1,13 @@
+<article class="movies-container">
+    <section  
+        *ngFor="let obra of obras; let i = index"
+        class="movies-item">
+        <app-card [obra]="obra" [index]="i"></app-card>
+    </section>
+</article>
+
+
+
+
+
+
