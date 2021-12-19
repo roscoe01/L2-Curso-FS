@@ -29,11 +29,20 @@ img{
 
 .card-title {
     font-weight: bolder;
+    font-size: 1.5rem;
+    color:#555350;
+}
+
+hr{
+    background-color: #555350;
+    width: 100%;
+    margin-top: 0;
 }
 
 .card-text{
     display: block;
-    height: 100px;
+    height: 3rem;
+    color: black;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -50,12 +59,12 @@ button {
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    transition: all 0.3s ease 0s;
+    transition: all 0.7s ease 0s;
     font-weight: bold;
 }
 
 button:hover{
-    background-color: rgba(253, 193, 29, 0.7);
+    background-color: rgb(202, 156, 29);
 }
 
 .card-img-top{

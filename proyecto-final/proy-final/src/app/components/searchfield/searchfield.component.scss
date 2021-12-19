@@ -7,12 +7,17 @@
 
 }
 
+.form-control{
+    border: none;
+    border-radius: 0.5rem;
+}
+
 form{
-    gap: 10px;
+    gap: 0.5rem;
 }
 
 button {
-    background-color: rgb(253, 193, 29);
+    background-color: white;
     border: none;
     border-radius: 10px;
     cursor: pointer;
