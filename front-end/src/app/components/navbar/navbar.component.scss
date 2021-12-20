@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
 
 nav{
-    background-color: #555350    ;
+    background-color: #3b3a38    ;
     width: 100%;
     height: 4rem;
-    z-index: 12;
-    position: fixed;
 }
 
 
@@ -21,11 +20,17 @@ nav{
     color: rgb(253, 193, 29)
 }
 
+i{
+    margin-right: 0.25rem;
+}
+
+li{
+    margin-left: 1rem;
+}
 
 li, a, button{
     font-family: 'Sen', sans-serif;
-    font-weight: 500;
-    font-size: 22px;
+    font-size: 1.5rem;
     color: #edf0f1;
     text-decoration: none;
 }

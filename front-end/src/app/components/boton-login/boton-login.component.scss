@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Work+Sans&display=swap');
+
+
+*{
+    font-family: 'Sen', sans-serif;
+    font-weight: lighter;
+    color: white;
+}
+
+.login{
+    white-space: nowrap;
+    font-size: 18px;
+    background-color: rgb(26, 141, 135);
+    border: none;
+    border-radius: 10px;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+
+.logout{
+background-color: rgb(131, 2, 2);
+white-space: nowrap;
+font-size: 18px;
+border: none;
+border-radius: 10px;
+margin-left: 1rem;
+}

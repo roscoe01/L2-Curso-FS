@@ -1,0 +1,2 @@
+.obras-container{display:-ms-grid;display:grid;padding-top:1.5rem;padding-left:7rem;padding-right:7rem;-ms-grid-columns:1fr;grid-template-columns:1fr;gap:3rem}@media (min-width: 768px){.obras-container{-ms-grid-columns:(1fr)[2];grid-template-columns:repeat(2, 1fr)}}@media (min-width: 992px){.obras-container{-ms-grid-columns:(1fr)[4];grid-template-columns:repeat(4, 1fr)}}
+/*# sourceMappingURL=cards.component.min.css.map */

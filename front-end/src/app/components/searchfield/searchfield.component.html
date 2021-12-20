@@ -1,4 +1,4 @@
-<form (submit)="filter($event)" class="d-flex">
+<form (submit)="filter($event) "class="d-flex">
     <input 
             class="form-control mr-sm-2" 
             type="search" 
@@ -7,7 +7,7 @@
             id="search"
             name="search"
             [(ngModel)]="search">
-    <button class="btn buscar" type="submit">Buscar</button>
+    <button class="btn buscar" type="submit"><i class="bi bi-search"></i>Buscar</button>
     <button *ngIf="clear" (click)="onClear()" class="limpiar" type="clear">Limpiar Búsqueda</button>
 </form>
 

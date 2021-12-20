@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACK,AAAD,gBAAW,AAAC,CACR,OAAO,CAAE,IAAI,CACb,WAAW,CAAE,MAAM,CACnB,YAAY,CAAE,IAAI,CAClB,aAAa,CAAE,IAAI,CACnB,qBAAqB,CAAE,GAAG,CAC1B,GAAG,CAAE,IAAI,CASZ,AAPG,MAAM,EAAE,SAAS,EAAE,KAAK,EAR3B,AAAD,gBAAW,AAAC,CASJ,qBAAqB,CAAE,cAAa,CAM3C,CAHG,MAAM,EAAE,SAAS,EAAE,KAAK,EAZ3B,AAAD,gBAAW,AAAC,CAaJ,qBAAqB,CAAE,cAAa,CAE3C",
+    "sources": [
+        "../../../../../front-end/src/app/components/cards/cards.component.scss"
+    ],
+    "names": [],
+    "file": "cards.component.min.css"
+}

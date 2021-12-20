@@ -1,4 +1,4 @@
-.movies {
+.obras {
     &-container {
         display: grid;
         padding-top: 1.5rem;
@@ -6,7 +6,6 @@
         padding-right: 7rem;
         grid-template-columns: 1fr;
         gap: 3rem;
-        transform: translateY(5%);
         
         @media (min-width: 768px) {
             grid-template-columns: repeat(2,1fr)

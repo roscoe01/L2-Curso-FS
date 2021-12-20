@@ -25,6 +25,5 @@ export class SearchfieldComponent implements OnInit {
   onClear(){
     this.obrasSv.resetObras();
     this.clear = false;
-
   }
 }

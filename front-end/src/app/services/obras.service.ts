@@ -105,7 +105,6 @@ export class ObrasService {
     return this.initialObras[id];
   }
 
-
   resetObras(){
     this.obras$.next(this.initialObras);
   }

@@ -1,0 +1,2 @@
+<button *ngIf="!logged" (click)="onLogin()" class="btn login" type="button"  routerLink="/obras"><i class="bi bi-door-open-fill"></i>Login</button>
+<button *ngIf="logged" (click)="onLogout()" class="btn logout" type="button"><i class="bi bi-door-closed-fill"></i>Logout</button>

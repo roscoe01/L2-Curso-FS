@@ -1,7 +1,7 @@
-<article class="movies-container">
+<article class="obras-container">
     <section  
         *ngFor="let obra of obras; let i = index"
-        class="movies-item">
+        class="obras-item">
         <app-card [obra]="obra" [index]="i"></app-card>
     </section>
 </article>

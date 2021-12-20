@@ -8,6 +8,15 @@
 
 }
 
+.texto{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.happyface{
+    color: white;
+}
 
 .container{
     display: flex;
@@ -16,18 +25,37 @@
     background-color: #24252A;
     border: none;
     border-radius: 10px;
-    justify-content: left;
-    margin-left: auto;
-    margin-right: auto;
-    transform: translateY(50%);
+    margin-top: 5rem;
+
 }
 
+.boton{
+    display: flex;
+    justify-content: flex-end;
+}
+
+button{
+    display: flex;
+    background-color: rgb(253, 193, 29);
+    padding: 8px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.7s ease 0s;
+    font-weight: bold;
+    width: fit-content;
+}
+
+
+button:hover{
+    background-color: rgb(172, 132, 22);
+}
 
 h2{
     padding-bottom: 0.8rem;
     margin-bottom: 0.5rem;
     font-size: 5rem;
-    color: rgb(255, 255, 255);
+    color: rgb(253, 193, 29);
     justify-content: flex-end;
     font-weight: bold;
 }
@@ -47,6 +75,7 @@ textarea{
     transition: 0,3s;
     border-radius: 10px;
     border:none;
+    resize: none;
 }
 
 .field:focus{

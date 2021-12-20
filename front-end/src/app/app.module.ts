@@ -12,7 +12,9 @@ import { FormsModule } from '@angular/forms';
 import { ContactoComponent } from './components/contacto/contacto.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './components/home/home.component';
-import { HttpClientModule} from '@angular/common/http'
+import { HttpClientModule} from '@angular/common/http';
+import { LoginComponent } from './components/login/login.component';
+import { BotonLoginComponent } from './components/boton-login/boton-login.component'
 
 
 @NgModule({
@@ -24,7 +26,9 @@ import { HttpClientModule} from '@angular/common/http'
     SearchfieldComponent,
     CardsComponent,
     ContactoComponent,
-    HomeComponent
+    HomeComponent,
+    LoginComponent,
+    BotonLoginComponent
   ],
   imports: [
     BrowserModule,
