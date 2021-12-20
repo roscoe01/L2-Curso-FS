@@ -18,7 +18,6 @@ export class SearchfieldComponent implements OnInit {
   filter($event:any){
     $event.preventDefault();
     this.obrasSv.filterObras(this.search.trim());
-    this.search = '';
     this.clear = true;
   }
 
