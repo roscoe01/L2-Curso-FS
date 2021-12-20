@@ -9,10 +9,10 @@ import { DetailsComponent } from './components/details/details.component';
 import { SearchfieldComponent } from './components/searchfield/searchfield.component';
 import { CardsComponent } from './components/cards/cards.component';
 import { FormsModule } from '@angular/forms';
-import { CardsfilteredComponent } from './components/cardsfiltered/cardsfiltered.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './components/home/home.component';
+import { HttpClientModule} from '@angular/common/http'
 
 
 @NgModule({
@@ -23,7 +23,6 @@ import { HomeComponent } from './components/home/home.component';
     DetailsComponent,
     SearchfieldComponent,
     CardsComponent,
-    CardsfilteredComponent,
     ContactoComponent,
     HomeComponent
   ],
@@ -31,6 +30,7 @@ import { HomeComponent } from './components/home/home.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    HttpClientModule,
     BrowserAnimationsModule
 ],
   providers: [],

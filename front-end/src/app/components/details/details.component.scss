@@ -5,7 +5,6 @@
     font-weight: normal;
 }
 
-
 hr{
     background-color: white;
     width: 100%;
@@ -20,7 +19,7 @@ hr{
     height: auto;
     background-color: rgba(52,58,64,255);
     margin: auto;
-    transform: translateY(30%);
+    transform: translateY(15%);
 }
 
 .desc{
@@ -28,7 +27,6 @@ hr{
     color: rgb(253, 193, 29);
     margin-bottom: 2rem;
 }
-
 
 .card-text{
     color: white;
@@ -38,6 +36,7 @@ hr{
 
 .card-image img{
     width: 100%;
+    height: fit-content;
     object-fit: cover;
     border: none;
     border-top-left-radius: 6px;

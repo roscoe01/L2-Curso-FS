@@ -8,6 +8,7 @@ import { ObrasService } from 'src/app/services/obras.service';
 })
 export class SearchfieldComponent implements OnInit {
   search: string = '';
+  clear: boolean = false;
 
   constructor(private obrasSv: ObrasService) { }
 
@@ -18,6 +19,12 @@ export class SearchfieldComponent implements OnInit {
     $event.preventDefault();
     this.obrasSv.filterObras(this.search.trim());
     this.search = '';
+    this.clear = true;
+  }
+
+  onClear(){
+    this.obrasSv.resetObras();
+    this.clear = false;
 
   }
 }

@@ -12,6 +12,19 @@
     border-radius: 0.5rem;
 }
 
+.limpiar{
+    background-color: rgb(197, 5, 5);
+    color: white;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    margin-left: 0.5rem;
+}
+
+.limpiar:hover{
+    background-color: rgb(121, 2, 2);
+}
+
 form{
     gap: 0.5rem;
 }
