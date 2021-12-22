@@ -15,16 +15,16 @@
 }
 
 .happyface{
-    color: white;
+    color: #fffb00;
 }
 
 .container{
     display: flex;
     flex-direction: column;
     padding: 1em 2em;
-    background-color: #24252A;
+    background-color: #444444;
     border: none;
-    border-radius: 10px;
+    border-radius: 2rem;
     margin-top: 5rem;
 
 }
@@ -32,6 +32,7 @@
 .boton{
     display: flex;
     justify-content: flex-end;
+    gap: 1rem;
 }
 
 button{
@@ -46,6 +47,15 @@ button{
     width: fit-content;
 }
 
+.volver{
+    background-color: rgb(175, 2, 2);
+    color: white;
+    transition: all 0.5s ease 0s;
+}
+
+.volver:hover{
+    background-color: rgb(126, 1, 1);
+}
 
 button:hover{
     background-color: rgb(172, 132, 22);
@@ -54,8 +64,8 @@ button:hover{
 h2{
     padding-bottom: 0.8rem;
     margin-bottom: 0.5rem;
-    font-size: 5rem;
-    color: rgb(253, 193, 29);
+    font-size: 4rem;
+    color: white;
     justify-content: flex-end;
     font-weight: bold;
 }

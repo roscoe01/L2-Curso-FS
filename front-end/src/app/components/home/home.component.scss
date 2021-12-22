@@ -5,7 +5,7 @@
     color: rgb(253, 193, 29);
     font-family: 'Sen', sans-serif;
     font-weight: bolder;
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 div{
@@ -20,11 +20,30 @@ div{
 }
 
 
-.lead{
+.texto2{
     color:white;
     font-weight: normal;
     font-family: 'Sen', sans-serif;
 }
+
+.instagram{
+    display: flex;
+    font-weight: normal;
+    font-family: 'Sen', sans-serif;
+    font-size: 2rem;
+    justify-content: center;
+    
+}
+
+a{
+    color: white;
+    font-weight: bold;
+}
+
+.bi-instagram{
+    margin-right: 0.5rem;
+}
+
 
 .image{
     

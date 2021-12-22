@@ -5,7 +5,6 @@ import { CardsComponent } from './components/cards/cards.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
 import { DetailsComponent } from './components/details/details.component';
 import { HomeComponent } from './components/home/home.component';
-import { LoginComponent } from './components/login/login.component';
 import { AuthGuard } from './guards/auth.guard';
 
 const routes: Routes = [
@@ -30,10 +29,6 @@ const routes: Routes = [
   {
     path: 'contacto',
     component: ContactoComponent
-  },
-  {
-    path: 'login',
-    component: LoginComponent
   }
 ];
 

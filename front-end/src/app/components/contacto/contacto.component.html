@@ -6,14 +6,15 @@
             <h2 class="happyface">:)</h2>
         </div>
             <div class="datoscontainer">
-                <input type="text" class="field nombre" placeholder="Nombre">
-                <input type="email" class="field largo" placeholder="Correo Electrónico">
+                <input type="text" class="field nombre" placeholder="Tu Nombre">
+                <input type="email" class="field largo" placeholder="Tu Correo Electrónico">
             </div>
             <textarea class="field placeholder" placeholder="Tu duda o mensaje"></textarea>
     </div>
     <div class="boton" type="submit">
-        <button [routerLink]="['/obras']">Enviar</button>
+        <button (click)="showModal()" [routerLink]="['/obras']">Enviar</button>
+        <button class="volver" [routerLink]="['/obras']">Volver</button>
     </div>
-    
+   
 </form>
 

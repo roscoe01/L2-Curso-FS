@@ -11,19 +11,28 @@
 .login{
     white-space: nowrap;
     font-size: 18px;
-    background-color: rgb(26, 141, 135);
+    background-color: rgb(26, 149, 143);
     border: none;
     border-radius: 10px;
     margin-left: 1rem;
     cursor: pointer;
+    transition: all 0.3s ease 0s;
 }
 
+.login:hover{
+    color: white;
+    background-color:rgb(26, 141, 135) }
 
 .logout{
-background-color: rgb(131, 2, 2);
-white-space: nowrap;
-font-size: 18px;
-border: none;
-border-radius: 10px;
-margin-left: 1rem;
+    background-color: rgb(175, 2, 2);
+    white-space: nowrap;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 1rem;
+    transition: all 0.3s ease 0s;
 }
+
+.logout:hover{
+    color: white;
+    background-color:rgb(126, 1, 1) }

@@ -13,8 +13,8 @@ import { ContactoComponent } from './components/contacto/contacto.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './components/home/home.component';
 import { HttpClientModule} from '@angular/common/http';
-import { LoginComponent } from './components/login/login.component';
-import { BotonLoginComponent } from './components/boton-login/boton-login.component'
+import { BotonLoginComponent } from './components/boton-login/boton-login.component';
+import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2';
 
 
 @NgModule({
@@ -27,7 +27,6 @@ import { BotonLoginComponent } from './components/boton-login/boton-login.compon
     CardsComponent,
     ContactoComponent,
     HomeComponent,
-    LoginComponent,
     BotonLoginComponent
   ],
   imports: [
@@ -35,7 +34,8 @@ import { BotonLoginComponent } from './components/boton-login/boton-login.compon
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    [SweetAlert2Module]
 ],
   providers: [],
   bootstrap: [AppComponent]

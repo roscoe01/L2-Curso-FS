@@ -24,7 +24,7 @@ export class DetailsComponent implements OnInit {
         year: obra.año,
         coleccion: obra.coleccion
       }
-      console.log(this.obra);      
+      console.log(this.obra);
     });
   }
 
