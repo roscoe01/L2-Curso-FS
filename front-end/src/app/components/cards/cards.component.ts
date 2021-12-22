@@ -14,7 +14,7 @@ export class CardsComponent implements OnInit {
     // this.obras = this.obrasSvs.obras;
     this.obrasSvs.getObras().subscribe((resp)=> {
       console.log("Respuesta del endpoint desde el componente: ", resp);
-      this.obras = resp.data;
+      this.obras = resp;
     });
   }
 

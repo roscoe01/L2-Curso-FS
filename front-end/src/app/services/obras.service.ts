@@ -86,12 +86,22 @@ export class ObrasService {
   ];
 
   constructor(private http: HttpClient) {
+    this.getObrasSvc();
   }
   
   obras$: BehaviorSubject<Obra[]> = new BehaviorSubject(this.initialObras);
 
-  getObras() : Observable<Obras>{
-    return this.http.get<Obras>(`${environment.baseUrl}obras`)
+  getObras() : Observable<Obra[]>{
+    return this.obras$.asObservable();
+  }
+
+  getObrasSvc() {
+    return this.http
+    .get<Obras>(`${environment.baseUrl}obras`)
+    .subscribe((resp) => {
+        console.log(resp);
+        this.obras$.next(resp.data as Obra[]);
+      });
   }
 
   filterObras(text : string){
@@ -106,7 +116,7 @@ export class ObrasService {
   }
 
   resetObras(){
-    this.obras$.next(this.initialObras);
+    this.getObrasSvc();
   }
   
 }
